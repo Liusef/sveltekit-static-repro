@@ -4,9 +4,8 @@ import adapter from '@sveltejs/adapter-static';
 const config = {
 	kit: {
 		adapter: adapter(),
-		appDir: 'app_',
 		paths: {
-			base: process.env.NODE_ENV === 'development' ? '/' : '/sveltekit-static-repro'
+			base: process.env.NODE_ENV === 'development' ? '' : '/sveltekit-static-repro'
 		}
 	},
 };
