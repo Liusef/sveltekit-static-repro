@@ -6,7 +6,7 @@ const config = {
 		adapter: adapter(),
 		appDir: 'app_',
 		paths: {
-			base: process.env.NODE_ENV === 'development' ? '' : '/sveltekit-static-repro'
+			base: process.env.NODE_ENV === 'development' ? '/' : '/sveltekit-static-repro'
 		}
 	},
 };
